@@ -17,6 +17,8 @@ p {
   margin-right: auto;
   margin-left: auto;
   padding: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;  
 }
 
 section{
@@ -35,6 +37,8 @@ header {
   border: 1px solid black;
   text-align: center;
   text-transform: uppercase;
+  text-overflow: clip;
+  overflow: hidden;
 }
 
 .purple {
